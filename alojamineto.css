@@ -1,0 +1,93 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    line-height: 1.6; /* Altura de línea para una mejor legibilidad */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina padding por defecto */
+    background-color: #f4f4f4; /* Color de fondo de la página */
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina padding por defecto */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Margen entre los elementos de la lista */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilo del encabezado h1 */
+h1 {
+    margin: 0; /* Elimina márgenes por defecto */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo del contenedor principal */
+main {
+    padding: 20px; /* Espaciado interior del contenedor principal */
+}
+
+/* Estilo de cada sección de hotel */
+.hotel {
+    background: #fff; /* Color de fondo blanco para la sección del hotel */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    margin: 20px 0; /* Margen superior e inferior */
+    padding: 15px; /* Espaciado interior */
+}
+
+/* Estilo de la imagen del hotel */
+.hotel-image {
+    width: 50%; /* Ancho completo del contenedor */
+    height: auto; /* Altura automática para mantener proporciones */
+    border-radius: 5px; /* Bordes redondeados en la imagen */
+}
+
+/* Estilo del encabezado h2 */
+h2 {
+    color: #007bff; /* Color azul para el texto del encabezado h2 */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center; /* Centra el texto del pie de página */
+    padding: 10px 0; /* Espaciado interior del pie de página */
+    background: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto en blanco */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0; /* Alineación en la parte inferior */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilo de la sección de redes sociales */
+.social-media {
+    margin-bottom: 15px; /* Margen inferior para separar de otros elementos */
+}
+
+/* Estilo repetido del menú de navegación */
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina padding por defecto */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Margen entre los elementos de la lista */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Espacio entre el icono y el texto en los enlaces del menú */
+nav ul li a i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}

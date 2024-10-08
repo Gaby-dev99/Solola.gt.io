@@ -1,0 +1,25 @@
+title{
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1px 0;
+}
+
+.image-container img {
+    width: 48%; /* Ajusta el tamaño de las imágenes */
+    height: 300px; /* Mantiene la proporción de las imágenes */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}

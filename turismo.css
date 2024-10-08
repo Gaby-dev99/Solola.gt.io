@@ -1,0 +1,106 @@
+* {
+    /* todos los elementos de una página web */
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.destination {
+    display: flex; /* Usar flexbox para alinear imagen y título */
+    flex-direction: column; /* Cambiar a dirección de columna */
+    align-items: center; /* Centrar contenido horizontalmente */
+    padding: 20px; /* Espaciado interno */
+}
+
+.image-container {
+    position: relative; /* Para posicionar la imagen */
+    width: 100%; /* Ajustar el ancho al 100% */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+    filter: brightness(70%); /* Sombreado en la imagen */
+    border-radius: 5%; /* Bordes redondeados */
+}
+
+.destination-title {
+    margin-top: 10px; /* Espacio entre la imagen y el título */
+    color: #000000; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    text-align: center; /* Centrar texto */
+}
+
+.description-text {
+    margin-top: 10px; /* Espaciado entre el título y la descripción */
+    font-size: 1rem; /* Ajusta el tamaño del texto de la descripción */
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center; /* Centrar texto */
+    width: 100%; /* Ancho completo para la descripción */
+}
+/*edicion del contenido de los lugares*/
+
+
+.content {
+    display: flex;
+    flex-direction: column; /* Disposición en columna para los elementos */
+    max-width: 1200px; /* Ancho máximo */
+    margin: auto; /* Centrar el contenido */
+    padding: 20px; /* Espaciado interno */
+}
+
+.image-info {
+    display: flex; /* Disposición en fila para imagen y texto */
+    margin-bottom: 30px; /* Espaciado entre secciones */
+}
+
+.image-container {
+    position: relative;
+    width: 60%; /* Ancho de la imagen */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Para asegurar que las esquinas redondeadas se apliquen a la imagen */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; /* Mantener proporción */
+    filter: brightness(70%); /* Sombreado en la imagen */
+    border-radius: 15px; /* Bordes redondeados para la imagen */
+}
+
+.image-container h2 {
+    position: absolute;
+    top: 20px; /* Espaciado desde la parte superior */
+    left: 50%; /* Centrado horizontal */
+    transform: translateX(-50%); /* Ajuste para centrar */
+    color: white; /* Color del texto */
+    font-size: 2rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-align: center;
+    z-index: 1; /* Asegura que el título esté encima de la imagen */
+}
+
+.text-container {
+    padding: 20px; /* Espaciado interno */
+    width: 40%; /* Ancho de la sección de texto */
+}
+
+.text-container p {
+    margin-bottom: 20px; /* Espaciado entre el párrafo y la lista */
+}
+
+ul {
+    list-style-type: disc; /* Tipo de lista */
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
+}
+
+
